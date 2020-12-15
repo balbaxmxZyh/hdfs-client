@@ -9,7 +9,8 @@ import java.lang.reflect.InvocationHandler;
  * @Operation:
  * @Description:
  *
- *
+ *  JDK提供的动态代理，代理类需要实现InvocationHandler接口。
+ *  抽取一个底层抽象类
  */
 public abstract class DynamicProxy implements InvocationHandler {
 
